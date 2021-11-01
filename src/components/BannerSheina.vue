@@ -8,6 +8,7 @@
             class="product-slider"
             :items="3"
             :nav="false"
+            :dots="false"
             :autoplay="true"
           >
             <div class="product-item">
