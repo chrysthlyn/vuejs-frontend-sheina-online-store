@@ -5,6 +5,7 @@
     <BannerSheina />
     <InstaSheina />
     <PartnerSheina />
+    <FooterSheina />
   </div>
 </template>
 
@@ -15,6 +16,7 @@ import HeroSheina from "../components/HeroSheina.vue";
 import BannerSheina from "../components/BannerSheina.vue";
 import InstaSheina from "../components/InstaSheina.vue";
 import PartnerSheina from "../components/PartnerSheina.vue";
+import FooterSheina from "../components/FooterSheina.vue";
 
 export default {
   name: "Home",
@@ -24,6 +26,7 @@ export default {
     BannerSheina,
     InstaSheina,
     PartnerSheina,
+    FooterSheina,
   },
 };
 </script>
