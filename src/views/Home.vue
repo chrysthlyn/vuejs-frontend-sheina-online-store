@@ -3,6 +3,7 @@
     <HeaderSheina />
     <HeroSheina />
     <BannerSheina />
+    <InstaSheina />
   </div>
 </template>
 
@@ -11,6 +12,7 @@
 import HeaderSheina from "../components/HeaderSheina.vue";
 import HeroSheina from "../components/HeroSheina.vue";
 import BannerSheina from "../components/BannerSheina.vue";
+import InstaSheina from "../components/InstaSheina.vue";
 
 export default {
   name: "Home",
@@ -18,6 +20,7 @@ export default {
     HeaderSheina,
     HeroSheina,
     BannerSheina,
+    InstaSheina,
   },
 };
 </script>
