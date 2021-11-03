@@ -110,6 +110,8 @@
       </div>
     </section>
     <!-- Product Shop Section End -->
+
+    <RelatedSheina />
     <FooterSheina />
   </div>
 </template>
@@ -117,6 +119,7 @@
 <script>
 // @ is an alias to /src
 import HeaderSheina from "../components/HeaderSheina.vue";
+import RelatedSheina from "../components/RelatedSheina.vue";
 import FooterSheina from "../components/FooterSheina.vue";
 import carousel from "vue-owl-carousel";
 
@@ -125,6 +128,7 @@ export default {
   components: {
     HeaderSheina,
     FooterSheina,
+    RelatedSheina,
     carousel,
   },
   data() {
